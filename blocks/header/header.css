@@ -1,0 +1,15 @@
+@import url(./__container/header__container.css);
+@import url(./__container-list/header__container__list.css);
+@import url(./__container-list-item/header__container-list-item.css);
+@import url(./__container-link/header__container-link.css);
+@import url(./__title/header__title.css);
+@import url(./__subtitle/header__subtitle.css);
+@import url(./__image-container/header__image-container.css);
+@import url(./__image/header__image.css);
+@import url(./__image-caption/header__image-caption.css);
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+}

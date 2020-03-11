@@ -1,0 +1,7 @@
+.header__container-list-item {
+    margin-right: 18px;
+}
+
+.header__container-list-item:last-of-type {
+    margin-right: 0;
+}

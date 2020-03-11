@@ -1,0 +1,10 @@
+.header__image-caption {
+    display: flex;
+    width: 636px;
+    margin: 0 577px 0 227px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.625rem;
+    line-height: 1;
+}
