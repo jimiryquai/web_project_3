@@ -1,9 +1,10 @@
 .header__title {
-    margin: 50px auto;
+    margin: 47px auto;
     font-style:  normal;
     font-weight: 900;
     font-size: 6rem;
-    line-height: .8;
+    line-height: 1;
     width: 782px;
+    height: 184px;
     text-align: center;
 }

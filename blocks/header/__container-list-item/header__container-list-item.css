@@ -1,4 +1,6 @@
 .header__container-list-item {
+    width: 30px;
+    min-height: 23px;
     margin-right: 18px;
 }
 
