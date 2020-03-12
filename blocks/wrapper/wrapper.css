@@ -1,0 +1,11 @@
+/*
+  WRAPPER
+  A utility with a max width that contains child elements and horizontal centers them
+*/
+
+.wrapper {
+    max-width: 74rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
