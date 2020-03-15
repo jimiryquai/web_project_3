@@ -1,0 +1,10 @@
+.lead__title {
+    margin: 3.133rem 1rem 0.5rem;
+    font-style:  normal;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    max-width: 90%;
+    min-height: 6rem;
+    text-align: center;
+}

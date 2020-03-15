@@ -1,0 +1,6 @@
+.cover-bg {
+    background:#2A2C2F;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}

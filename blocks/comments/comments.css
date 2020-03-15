@@ -1,0 +1,7 @@
+@import url(./__container/comments__container.css);
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}

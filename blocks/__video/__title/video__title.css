@@ -1,0 +1,11 @@
+.video__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.1rem;
+    position: absolute;
+    left: 1rem;
+    top: 7.875rem;
+    margin: .5rem 0 .75rem;
+    width: calc(100% - 2rem);
+}

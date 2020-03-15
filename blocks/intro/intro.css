@@ -1,0 +1,14 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__text/_size/intro__text_size_big.css);
+@import url(./__text/_size/intro__text_size_small.css);
+@import url(./__text-accent/intro__text-accent.css);
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4.5rem;
+    width: calc(100% - 2rem);
+    padding: 0 1rem 4.5rem;
+}
+

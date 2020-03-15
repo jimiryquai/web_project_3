@@ -1,0 +1,13 @@
+@import url(./__title/two-columns__title.css);
+@import url(./__image/two-columns__image.css);
+@import url(./__main-text/two-columns__main-text.css);
+@import url(./__url-heading/two-columns__url-heading.css);
+@import url(./__url/two-columns__url.css);
+@import url(./__paragraph/two-columns__paragraph.css);
+
+.two-columns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}

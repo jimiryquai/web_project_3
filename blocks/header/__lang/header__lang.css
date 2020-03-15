@@ -1,0 +1,11 @@
+.header__lang {
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: .9;
+}
+
+.header__lang:focus {
+    text-decoration-line: underline;
+}

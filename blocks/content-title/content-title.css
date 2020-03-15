@@ -1,0 +1,10 @@
+@import url(./_center/content-title_center.css);
+
+.content-title {
+width: calc(100% - 2rem);
+font-style: normal;
+font-weight: 900;
+font-size: 2rem;
+line-height: 1.1;
+margin: 0 1rem 2rem;
+}
