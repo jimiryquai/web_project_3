@@ -5,3 +5,20 @@
     flex-direction: column;
     margin: 0;
 }
+
+@media (min-width: 768px ) and (max-width: 1023px) {
+    
+    .lead__figure {
+        width: calc(768px + 196 * ((100vw - 768px) / 256));
+    }
+
+  }
+
+  @media (min-width: 1024px) {
+    
+    .lead__figure {
+        max-width: 61.5rem;
+    }
+
+  }
+  

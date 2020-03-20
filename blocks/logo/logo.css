@@ -2,3 +2,12 @@
     width: 156px;
     height: 36.27px;
 }
+
+@media (min-width: 769px ) {
+
+    .logo {
+        width: 196.42px;
+        height: 46px;
+    }
+
+  }

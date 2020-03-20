@@ -1,9 +1,5 @@
 .place__url {
     display: none;
-}
-
-/* .place__url {
-    width: 100%;
     min-height: 18px;
     font-style: normal;
     font-weight: normal;
@@ -12,4 +8,13 @@
     text-decoration-line: underline;
     color: #fff;
     margin: 0 0 3.75rem;
-} */
+}
+
+@media (min-width: 768px ) {
+
+        .place__url {
+            display: block;
+            margin-bottom: 5.22rem;
+        }
+
+  }

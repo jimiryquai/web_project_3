@@ -4,3 +4,11 @@
     border-radius: 50%;
     margin: 0 auto 1.125rem;
 }
+
+@media (min-width: 1024px) {
+
+    .comment__image {
+        margin: 0 0 2.5rem;
+    }
+
+}

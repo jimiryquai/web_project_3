@@ -1,8 +1,29 @@
 .intro__subtitle {
-    width: calc(100% - 2rem);
     min-height: 26px;
-    margin: 0 1rem 2.1875rem;
+    margin: 0 0 2.1875rem;
     font-weight: normal;
+    font-style: normal;
     font-size: 1.5rem;
     line-height: 1.67;
 }
+
+
+@media (min-width: 769px ) and (max-width: 1023px) {
+    
+    .intro__subtitle {
+        font-size: 1.5rem;
+        line-height: 1.6744;
+        margin-bottom: 1.625rem;
+    }
+
+  }
+
+  @media (min-width: 1024px) {
+    
+    .intro__subtitle {
+        font-size: 1.5rem;
+        line-height: 1.6744;
+        margin-bottom: 2rem;
+    }
+
+  }

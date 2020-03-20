@@ -1,15 +1,23 @@
 @import url(./__container/video__container.css);
+@import url(./__overlay/video__overlay.css);
 @import url(./__item/video__item.css);
 @import url(./__image/video__image.css);
 @import url(./__icon-play/video__icon-play.css);
 @import url(./__duration/video__duration.css);
-@import url(./__duration/_place/video__duration_place_wyoming.css);
 @import url(./__title/video__title.css);
-@import url(./__title/_place/video__title_place_wyoming.css);
 @import url(./__subtitle/video__subtitle.css);
 
 .video {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+
+    .video {
+        padding-bottom: 6.25rem;
+    }
+
 }

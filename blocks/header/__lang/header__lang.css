@@ -6,6 +6,6 @@
     line-height: .9;
 }
 
-.header__lang:focus {
-    text-decoration-line: underline;
+.header__lang:hover {
+    opacity: 0.8;
 }

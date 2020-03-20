@@ -5,4 +5,19 @@
 .comment {
     display: flex;
     flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+@media (min-width: 1024px) {
+    .comment {
+        width: 28.91%;
+        max-width: 23.875rem;
+        margin-right: 1rem;
+        align-self: flex-start;
+    }
+
+    .comment:last-of-type {
+        margin-right: 0;
+    }
 }

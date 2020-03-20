@@ -1,10 +1,40 @@
 @import url(./_center/content-title_center.css);
 
 .content-title {
-width: calc(100% - 2rem);
-font-style: normal;
-font-weight: 900;
-font-size: 2rem;
-line-height: 1.1;
-margin: 0 1rem 2rem;
+    width: calc(100% - 2.5rem);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.1;
+    margin: 0 auto 2rem;
+    text-align: center;
+    }
+
+@media (min-width: 426px ) and (max-width: 768px) {
+
+    .content-title {
+        width: calc(100% - 3rem);
+    }
+
+}
+
+@media (min-width: 768px ) and (max-width: 1023px) {
+
+    .content-title {
+        font-size: calc(42px + 30 * ((100vw - 768px) / 256));
+        margin-bottom: 2.5rem;
+        width: 93.75%;
+        max-width: 58rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .content-title {
+        font-size: 4.5rem;
+        width: 50rem;
+        margin: 0 auto 2.3125rem;
+    }
+
 }

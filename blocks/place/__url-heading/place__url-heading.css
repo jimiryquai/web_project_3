@@ -1,10 +1,5 @@
 .place__url-heading {
     display: none;
-}
-
-/* 
-.place__url-heading {
-    width: 100%;
     min-height: 12px;
     font-style: normal;
     font-weight: normal;
@@ -13,4 +8,12 @@
     letter-spacing: 0.2em;
     color: #AAAAAA;
     margin: 0 0 1rem;
-} */
+}
+
+@media (min-width: 768px ) {
+
+    .place__url-heading {
+        display: block;
+    }
+
+}

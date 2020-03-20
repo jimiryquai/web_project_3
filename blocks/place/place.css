@@ -9,3 +9,11 @@
     flex-direction: column;
     margin-bottom: 3rem;
 }
+
+@media (min-width: 768px ) {
+
+    .place:last-of-type {
+        margin-bottom: 0;
+    }
+
+}

@@ -1,6 +1,36 @@
 .two-columns__main-text {
     display: flex;
     flex-direction: column;
-    width: calc(100% - 2rem);
-    margin: 0 1rem;
+    width: 90%;
+    max-width: 22rem;
+    margin: 0 auto;
 }
+
+@media (min-width: 426px ) and (max-width: 767px) {
+
+    .two-columns__main-text  {
+        width: 88.73%;
+        max-width: 32.95rem;
+    }
+
+  }
+
+@media (min-width: 768px ) and (max-width: 1023px) {
+
+    .two-columns__main-text  {
+        width: calc(352px + 104 * ((100vw - 768px) / 255));
+        max-width: 28.5rem;
+        margin: 0;
+    }
+
+  }
+
+  @media (min-width: 1024px) {
+
+    .two-columns__main-text  {
+        width: calc(456px + 28 * ((100vw - 1024px) / 256));
+        max-width: 30.35rem;
+        margin: 0;
+    }
+
+  }

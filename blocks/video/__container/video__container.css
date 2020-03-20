@@ -1,0 +1,29 @@
+.video__container {
+    width: 90%;
+    max-width: 21.9375rem;
+    margin: 0 auto .5rem;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+@media (min-width: 426px ) and (max-width: 767px) {
+
+    .video__container {
+        width: 88.73%;
+        max-width: 45rem;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+  }
+
+  @media (min-width: 768px ) {
+
+    .video__container {
+        width: 93.75;
+        max-width: 74rem;
+        justify-content: space-evenly;
+    }
+    
+  }

@@ -1,3 +1,30 @@
 .two-columns__title {
     flex-direction: column;
 }
+
+@media (min-width: 426px ) and (max-width: 767px) {
+
+    .two-columns__title {
+        margin: 0 auto;
+    }
+    
+  }
+
+@media (min-width: 768px ) and (max-width: 1023px) {
+
+    .two-columns__title {
+        width: calc(340px + 100 * ((100vw - 768px) / 255));
+        margin-right: 1.875rem;
+    }
+    
+  }
+
+  @media (min-width: 1024px) {
+
+    .two-columns__title {
+        width: calc(440px + 20 * ((100vw - 1024px) / 256));
+        margin-right: 1.875rem;
+    }
+    
+  }
+  

@@ -1,8 +1,18 @@
 .intro__text {
-    width: 100%;
     font-size: 1rem;
     font-style: normal;
     font-weight: normal;
     line-height: 1.69;
     margin: 0 0 3rem;
 }
+
+@media (min-width: 768px ) and (max-width: 1023px) {
+    
+    .intro__text {
+        width: calc(720px - 37 * ((100vw - 768px) / 256));
+        font-size: 0.875rem;
+        line-height: 1.72;
+        margin-bottom: 1.625rem; 
+    }
+
+  }

@@ -19,7 +19,7 @@
                 <path d="M182.997 35.9999H177.671L183.672 17.8181H190.419L196.421 35.9999H191.094L190.046 32.5198H184.045L182.997 35.9999ZM185.164 28.8266H188.928L187.117 22.8252H186.975L185.164 28.8266Z" fill="white"/>
             </svg>                    
             <ul class="header__list">
-                <li class="header__list-item"><a class="header__lang" href="#">En</a></li>
+                <li class="header__list-item"><a class="header__lang header__lang_en" href="#">En</a></li>
                 <li class="header__list-item"><a class="header__lang" href="#">Es</a></li>
             </ul>
         </header>
@@ -32,9 +32,9 @@
             </figure>
         </section>
         <section class="intro">
-            <h2 class="into__title">Know the country you live in a little better</h2>
+            <h2 class="intro__title">Know the country you live in a little better</h2>
             <div class="intro__content-row">
-                <p class="intro__text intro__text_size_big">That's exactly what we have arranged for you via this travel story</p>
+                <p class="intro__subtitle">That's exactly what we have arranged for you via this travel story</p>
             </div>
             <div class="intro__content-row">
                 <p class="intro__text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
@@ -124,7 +124,7 @@
                 </div>
             </div>
         </div>
-        <div class="ohio">
+        <div class="place">
             <div class="two-columns">
                 <div class="two-columns__title">
                     <h2 class="place__title">Ohio</h2>
@@ -139,39 +139,43 @@
             </div>
         </section>
         <section class="video">
-            <h2 class="content-title content-title_center">Cycling & Spouting</h2>
+            <h2 class="content-title">Cycling & Spouting</h2>
             <p class="content-subtitle">The largest bike-touring event in the world and the most famous geyser of Yellowstone National Park</p>
-            <div class="video__container">
-                <div class="video__item">
-                    <img src="./images/cycling.jpg" alt="cyclists" class="video__image">
-                    <a href="https://www.youtube.com/watch?v=2eCG6Ozz-oE">
-                        <svg class="video__icon_play" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M20.5 1.5375C30.955 1.5375 39.4625 10.045 39.4625 20.5C39.4625 30.955 30.955 39.4625 20.5 39.4625C10.045 39.4625 1.5375 30.955 1.5375 20.5C1.5375 10.045 10.045 1.5375 20.5 1.5375ZM20.5 0C9.17375 0 0 9.17375 0 20.5C0 31.8263 9.17375 41 20.5 41C31.8263 41 41 31.8263 41 20.5C41 9.17375 31.8263 0 20.5 0Z" fill="white"/>
-                            <path d="M17.7831 27.0086L27.5206 21.3711C27.8281 21.1661 28.0331 20.8586 28.0331 20.4999C28.0331 20.1411 27.8281 19.7824 27.5206 19.6286L17.7831 13.9911C17.4756 13.7861 17.0656 13.7861 16.7581 13.9911C16.4506 14.1961 16.2456 14.5036 16.2456 14.8624V26.1374C16.2456 26.4961 16.4506 26.8549 16.7581 27.0086C17.0656 27.1624 17.4244 27.2136 17.7831 27.0086Z" fill="white"/>
-                        </svg>
-                    </a>
-                    <p class="video__duration">5 : 27</p>
-                    <h3 class="video__title">RAGBRAI, Iowa</h3>
-                    <p class="video__subtitle">Author: Ryan Van Duzer</p>
+                <div class="video__container">
+                    <div class="video__item">
+                        <img src="./images/cycling.jpg" alt="cyclists" class="video__image">
+                        <a href="https://www.youtube.com/watch?v=2eCG6Ozz-oE">
+                            <div class="video__overlay">
+                                <svg class="video__icon_play" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20.5 1.5375C30.955 1.5375 39.4625 10.045 39.4625 20.5C39.4625 30.955 30.955 39.4625 20.5 39.4625C10.045 39.4625 1.5375 30.955 1.5375 20.5C1.5375 10.045 10.045 1.5375 20.5 1.5375ZM20.5 0C9.17375 0 0 9.17375 0 20.5C0 31.8263 9.17375 41 20.5 41C31.8263 41 41 31.8263 41 20.5C41 9.17375 31.8263 0 20.5 0Z" fill="white"/>
+                                    <path d="M17.7831 27.0086L27.5206 21.3711C27.8281 21.1661 28.0331 20.8586 28.0331 20.4999C28.0331 20.1411 27.8281 19.7824 27.5206 19.6286L17.7831 13.9911C17.4756 13.7861 17.0656 13.7861 16.7581 13.9911C16.4506 14.1961 16.2456 14.5036 16.2456 14.8624V26.1374C16.2456 26.4961 16.4506 26.8549 16.7581 27.0086C17.0656 27.1624 17.4244 27.2136 17.7831 27.0086Z" fill="white"/>
+                                </svg>
+                                <p class="video__duration">5 : 27</p>
+                                <h3 class="video__title">RAGBRAI, Iowa</h3>
+                                <p class="video__subtitle">Author: Ryan Van Duzer</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video__item">
+                        <img src="./images/wyoming.jpg" alt="old faithful geyser erupting" class="video__image">
+                        <a href="https://www.youtube.com/watch?v=4mZY7uxb7Gc">
+                            <div class="video__overlay">
+                                <svg class="video__icon_play" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20.5 1.5375C30.955 1.5375 39.4625 10.045 39.4625 20.5C39.4625 30.955 30.955 39.4625 20.5 39.4625C10.045 39.4625 1.5375 30.955 1.5375 20.5C1.5375 10.045 10.045 1.5375 20.5 1.5375ZM20.5 0C9.17375 0 0 9.17375 0 20.5C0 31.8263 9.17375 41 20.5 41C31.8263 41 41 31.8263 41 20.5C41 9.17375 31.8263 0 20.5 0Z" fill="white"/>
+                                    <path d="M17.7831 27.0086L27.5206 21.3711C27.8281 21.1661 28.0331 20.8586 28.0331 20.4999C28.0331 20.1411 27.8281 19.7824 27.5206 19.6286L17.7831 13.9911C17.4756 13.7861 17.0656 13.7861 16.7581 13.9911C16.4506 14.1961 16.2456 14.5036 16.2456 14.8624V26.1374C16.2456 26.4961 16.4506 26.8549 16.7581 27.0086C17.0656 27.1624 17.4244 27.2136 17.7831 27.0086Z" fill="white"/>
+                                </svg>
+                                <p class="video__duration">2 : 36</p>
+                                <h3 class="video__title">Old Faithful Geyser, Wyoming</h3>
+                                <p class="video__subtitle">Author: David Ellis</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="video__item">
-                    <img src="./images/wyoming.jpg" alt="old faithful geyser erupting" class="video__image">
-                    <a href="https://www.youtube.com/watch?v=4mZY7uxb7Gc">
-                        <svg class="video__icon_play" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M20.5 1.5375C30.955 1.5375 39.4625 10.045 39.4625 20.5C39.4625 30.955 30.955 39.4625 20.5 39.4625C10.045 39.4625 1.5375 30.955 1.5375 20.5C1.5375 10.045 10.045 1.5375 20.5 1.5375ZM20.5 0C9.17375 0 0 9.17375 0 20.5C0 31.8263 9.17375 41 20.5 41C31.8263 41 41 31.8263 41 20.5C41 9.17375 31.8263 0 20.5 0Z" fill="white"/>
-                            <path d="M17.7831 27.0086L27.5206 21.3711C27.8281 21.1661 28.0331 20.8586 28.0331 20.4999C28.0331 20.1411 27.8281 19.7824 27.5206 19.6286L17.7831 13.9911C17.4756 13.7861 17.0656 13.7861 16.7581 13.9911C16.4506 14.1961 16.2456 14.5036 16.2456 14.8624V26.1374C16.2456 26.4961 16.4506 26.8549 16.7581 27.0086C17.0656 27.1624 17.4244 27.2136 17.7831 27.0086Z" fill="white"/>
-                        </svg>
-                    </a>
-                    <p class="video__duration video__duration_place_wyoming">2 : 36</p>
-                    <h3 class="video__title video__title_place_wyoming">Old Faithful Geyser, Wyoming</h3>
-                    <p class="video__subtitle">Author: David Ellis</p>
-                </div>
-            </div>
         </section>
         <section class="comments">
-            <h2 class="content-title content-title_center">Three influential people</h2>
+            <h2 class="content-title">Three influential people</h2>
             <p class="content-subtitle">These 3 Americans have each impacted the world in very individual ways</p>
-            <div class="comments_container">
+            <div class="comments__container">
                 <div class="comment">
                     <img src="./images/beatrice-morrow-cannady.jpg" alt="beatrice morrow cannady" class="comment__image">
                     <blockquote class="comment__quote">It is the duty of the Negro woman to see that in the home there are histories of her race written by Negro historians.</blockquote>
@@ -190,21 +194,18 @@
             </div>
         </section>
         <section class="cover">
-            <h2 class="cover__title">Historic Route 66</h2>
-            <p class="cover__subtitle">The Main Street of America
-
-                from Santa Monica, Cal. to Chicago, Ill.
-                
-                within an iframe</p>
-                <div class="cover-bg"></div>
             <img src="./images/route-66.jpg" alt="route 66" class="image">
+            <div class="cover-bg">
+                <h2 class="cover__title">Historic Route 66</h2>
+                <p class="cover__subtitle">The Main Street of Americ from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
+            </div>
         </section>
         <footer class="footer">
-            <nav class="nav">
-                <ul class="footer__links">
-                    <li class="footer__link">Maps</li>
-                    <li class="footer__link">Weather</li>
-                    <li class="footer__link">Calendar</li>
+            <nav class="nav" role="navigation">
+                <ul class="nav__links">
+                    <li class="nav__link">Maps</li>
+                    <li class="nav__link">Weather</li>
+                    <li class="nav__link">Calendar</li>
                 </ul>
             </nav>
             <p class="footer__copyright">&copy; 2020 James Ryan</p>

@@ -11,18 +11,15 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/content-title/content-title.css);
 @import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/new-hampshire/new-hapmshire.css);
-@import url(../blocks/new-york/new-york.css);
-@import url(../blocks/erie-pa/erie-pa.css);
-@import url(../blocks/ohio/ohio.css);
 @import url(../blocks/content-subtitle/content-subtitle.css);
-@import url(../blocks/__video/video.css);
+@import url(../blocks/video/video.css);
 @import url(../blocks/comments/comments.css);
 @import url(../blocks/comment/comment.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover-bg/cover-bg.css);
 @import url(../blocks/image/image.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/nav/nav.css);
 
 @font-face {
     font-family: 'Inter';

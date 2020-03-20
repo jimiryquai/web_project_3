@@ -1,0 +1,32 @@
+.video__item {
+    width: 100%;
+    position: relative;
+    margin-bottom: 0.5rem;
+    flex: 1; 
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+
+    .video__item {
+        width: 22rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .video__item {
+        width: 48.89%;
+        max-width: 28rem;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+
+    .video__item {
+        width: 44.53%;
+        max-width: 36.4375rem;
+    }
+    
+}

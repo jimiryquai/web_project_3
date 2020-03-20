@@ -1,6 +1,14 @@
 .cover-bg {
-    background:#2A2C2F;
-    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 100%;
+    height: 100%;
+    background-color: rgba(42,44,47,0.1);
     display: flex;
+    flex-flow: row wrap
 }
+
+.cover-bg:hover {
+    background-color: rgba(42,44,47,0.2);
+  }

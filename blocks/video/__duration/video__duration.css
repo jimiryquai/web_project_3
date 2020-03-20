@@ -4,8 +4,7 @@
     font-size: .75rem;
     line-height: 1.08rem;
     letter-spacing: 0.3em;
-    position: absolute;
-    left: 1rem;
-    top: 6.625rem;
+    min-width: 80px;
+    color: #fff;
     margin: 0;
 }
