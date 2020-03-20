@@ -6,8 +6,8 @@
 @media (min-width: 426px ) and (max-width: 767px) {
 
     .two-columns__main-text  {
-        width: 88.73%;
         max-width: 32.95rem;
+        align-self: center;
     }
 
   }

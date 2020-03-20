@@ -10,7 +10,11 @@
 @media screen and (min-width: 426px ) and (max-width: 767px) {
 
     .content-subtitle {
-        width: calc(100% - 3rem);
+        font-size: calc(16px + 7 * ((100vw - 426px) / 255)); 
+        line-height: calc(23px + 11 * ((100vw - 426px) / 255));
+        margin-bottom: calc(25px + 30 * ((100vw - 426px) / 255));
+        width: 91.74%;
+        max-width: 640px;
     }
 
 }

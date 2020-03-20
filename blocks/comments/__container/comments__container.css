@@ -7,7 +7,9 @@
 @media (min-width: 426px ) and (max-width: 767px) {
 
     .comments__container {
-        max-width: 21.375rem;
+        width: 91.46%;
+        max-width: 23.5rem;
+        padding-bottom: 3.25rem;
     }
 
   }

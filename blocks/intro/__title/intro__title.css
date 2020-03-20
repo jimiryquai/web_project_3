@@ -8,8 +8,7 @@
 
 @media (min-width: 426px ) and (max-width: 767px) {
     .intro__title {
-        width: calc(100% - 3rem);
-        font-size: 2.5rem;
+        font-size: calc(32px + 21 * ((100vw - 426px) / 341));
     }
 
   }

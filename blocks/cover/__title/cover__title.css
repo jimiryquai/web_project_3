@@ -10,7 +10,7 @@
     min-height: 80px;
 }
 
-@media (min-width: 426px) and (max-width: 767px) {
+@media screen and (min-width: 426px) and (max-width: 767px) {
 
     .cover__title {
         font-size: calc(32px + 39 * ((100vw - 426px) / 341));
@@ -19,7 +19,7 @@
 
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .cover__title {
         font-size: 4.5rem;
@@ -27,7 +27,7 @@
 
 }
 
-@media (min-width: 102px) {
+@media sc reen and (min-width: 1024px) {
 
     .cover__title {
         width: 60.375rem;
