@@ -4,7 +4,6 @@
     font-weight: 900;
     font-size: calc(40px + 12 * ((100vw - 320px) / 105));
     line-height: 1.1;
-    width: calc(100% - 2.5rem);
     min-height: 6rem;
     text-align: center;
 }

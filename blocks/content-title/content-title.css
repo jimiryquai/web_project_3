@@ -1,12 +1,11 @@
 @import url(./_center/content-title_center.css);
 
 .content-title {
-    width: calc(100% - 2.5rem);
     font-style: normal;
     font-weight: 900;
     font-size: 2rem;
     line-height: 1.1;
-    margin: 0 auto 2rem;
+    margin: 0 0 2rem;
     text-align: center;
     }
 

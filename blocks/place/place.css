@@ -7,13 +7,9 @@
 .place {
     display: flex;
     flex-direction: column;
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
-@media (min-width: 768px ) {
-
-    .place:last-of-type {
-        margin-bottom: 0;
-    }
-
+.place:last-of-type {
+    padding-bottom: 0;
 }

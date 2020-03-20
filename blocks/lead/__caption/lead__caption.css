@@ -1,6 +1,4 @@
 .lead__caption {
-    width: calc(100% - 2rem);
-    min-height: 10px;
     margin: 0 1rem;
     text-transform: uppercase;
     font-weight: normal;

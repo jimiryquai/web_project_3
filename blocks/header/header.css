@@ -4,12 +4,9 @@
 @import url(./__lang/_en/header__lang_en.css);
 
 .header {
-    width: calc(100% - 2.5rem);
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 1.25rem;
-    align-items: flex-end;
+    align-items: center;
 }
 
 @media (min-width: 426px ) and (max-width: 767px) {

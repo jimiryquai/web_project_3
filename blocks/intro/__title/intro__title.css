@@ -1,11 +1,9 @@
 .intro__title {
-    min-height: 5.0625rem;
-    margin: 0 auto 2.8rem;
+    margin: 0 0 2.8rem;
     font-weight: 900;
     font-size: 2rem;
     font-style: normal;
     line-height: 1.1;
-    width: calc(100% - 2.5rem)
 }
 
 @media (min-width: 426px ) and (max-width: 767px) {

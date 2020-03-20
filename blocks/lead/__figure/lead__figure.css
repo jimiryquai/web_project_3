@@ -1,9 +1,6 @@
 .lead__figure {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     margin: 0;
+    width: calc(100% + 32px);
 }
 
 @media (min-width: 768px ) and (max-width: 1023px) {

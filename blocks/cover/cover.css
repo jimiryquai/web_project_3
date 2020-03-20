@@ -6,7 +6,8 @@
     flex-direction: column;
     position: relative;
     flex-wrap: wrap;
-    width: 100%;
+    width: calc(100% + 32px);
+    margin-left: -16px;
 }
 
 @media (min-width: 1024px) {
