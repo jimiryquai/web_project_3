@@ -4,8 +4,8 @@
     font-size: 2rem;
     line-height: 1.1;
     text-align: center;
-    width: calc(100% - 2rem);
-    margin: 0 auto -67px ;
+    width: 100%;
+    margin: 0 0 -67px ;
     align-self: flex-end;
     min-height: 80px;
 }

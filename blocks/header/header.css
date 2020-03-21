@@ -8,21 +8,3 @@
     justify-content: space-between;
     align-items: center;
 }
-
-  @media (min-width: 768px ) and (max-width: 1023px) {
-    
-    .header {
-        width: 93.75%;
-        max-width: 58rem;
-    }
-
-  }
-  
-  @media (min-width: 1023px) {
-    
-    .header {
-        width: 90.625%;
-        max-width: 74rem;
-    }
-
-  }

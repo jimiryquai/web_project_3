@@ -1,12 +1,13 @@
 .lead__figure {
     margin: 0;
     width: calc(100% + 32px);
+    overflow: hidden;
 }
 
 @media (min-width: 768px ) and (max-width: 1023px) {
     
     .lead__figure {
-        width: calc(768px + 196 * ((100vw - 768px) / 256));
+        width: 100%;
     }
 
   }

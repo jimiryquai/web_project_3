@@ -1,6 +1,7 @@
 @import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
+
 .footer {
     padding-top: 4rem;
     display: flex;
@@ -14,10 +15,8 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 94%;
-        max-width: 74rem;
-        padding-top: 10rem;
-        padding-bottom: 1.5rem;
+        width: 100%;
+        padding-top: 6rem;
         margin: 0 auto;
     }
 

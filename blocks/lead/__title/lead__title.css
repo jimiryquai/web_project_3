@@ -1,5 +1,5 @@
 .lead__title {
-    margin: 3.133rem auto 0.5rem;
+    margin: 3.133rem 0 0.5rem;
     font-style: normal;
     font-weight: 900;
     font-size: calc(40px + 12 * ((100vw - 320px) / 105));
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-@media (min-width: 426px ) and (max-width: 767px) {
+@media screen and (min-width: 426px ) and (max-width: 767px) {
 
     .lead__title {
         font-size: calc(54px + 40 * ((100vw - 426px) / 341));
@@ -16,19 +16,17 @@
 
   }
 
-  @media (min-width: 768px ) and (max-width: 1023px) {
+  @media screen and (min-width: 768px ) and (max-width: 1023px) {
     
     .lead__title {
-        margin: 3rem auto 3rem;
-        width: 93.75%;
-        max-width: 58rem;
+        margin: 3rem 0 3rem;
         font-size: 6rem;
         line-height: 0.96875;
     }
 
   }
 
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     
     .lead__title {
         margin: 3rem auto 3rem;

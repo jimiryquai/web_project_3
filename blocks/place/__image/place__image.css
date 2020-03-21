@@ -1,19 +1,27 @@
 .place__image {
     width: calc(100% + 32px);
     margin: 0 0 1.5rem -16px;
+    overflow: hidden;
 }
 
-@media (min-width: 426px ) and (max-width: 767px) {
+@media screen and (min-width: 426px) {
 
     .place__image {
-        max-width: 32.95rem;
         width: 100%;
         margin-left: 0;
     }
 
+}
+
+@media screen and (min-width: 426px ) and (max-width: 767px) {
+
+    .place__image {
+        max-width: 32.95rem;
+    }
+
   }
 
-@media (min-width: 768px ) {
+@media screen and (min-width: 768px ) {
 
     .place__image {
         margin-bottom: 0;

@@ -6,9 +6,19 @@
     height: 100%;
     background-color: rgba(42,44,47,0.1);
     display: flex;
-    flex-flow: row wrap
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    padding: 16px;
 }
 
 .cover-bg:hover {
     background-color: rgba(42,44,47,0.2);
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .cover-bg {
+        padding: 24px;
+    }
+    
+  }
+  

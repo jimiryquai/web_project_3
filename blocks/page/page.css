@@ -20,7 +20,8 @@
     .page {
         padding-top: 36px;
         padding-bottom: 48px;
-        padding-left: calc(48px + 80 * ((100vw - 1024px) / 416));;
+        padding-left: calc(48px + 80 * ((100vw - 1024px) / 416));
+        padding-right: calc(48px + 80 * ((100vw - 1024px) / 416));
     }
 
 }
