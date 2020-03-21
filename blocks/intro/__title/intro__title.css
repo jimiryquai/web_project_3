@@ -13,11 +13,18 @@
 
   }
 
-  @media screen and (min-width: 768px ) and (max-width: 1023px) {
+  @media screen and (min-width: 768px ) {
     
     .intro__title {
         font-size: 3.375rem;
         line-height: 1.09;
+    }
+
+  }
+
+  @media screen and (min-width: 768px ) and (max-width: 1023px) {
+    
+    .intro__title {
         margin: 0 auto 3rem;
     }
 
@@ -26,13 +33,9 @@
   @media screen and (min-width: 1024px) {
     
     .intro__title {
-        width: calc(928px - 245 * ((100vw - 768px) / 256));
-        min-width: 42.6875rem;
-        margin-left: calc(48px + 180 * ((100vw - 1024px) / 416));
-        margin-right: auto;
-        margin-bottom: 3rem;
-        font-size: 3.375rem;
-        line-height: 1.09;
+      width: calc(928px - 245 * ((100vw - 1024px) / 256));
+      min-width: 683px;
     }
 
-  }
+} 
+

@@ -8,7 +8,6 @@
     
     .intro__content-row {
         width: 42.6875rem;
-        margin-left: calc(48px + 180 * ((100vw - 1024px) / 416));
         margin-right: auto;
         margin-top: 0;
         margin-bottom: 0;

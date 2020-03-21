@@ -46,7 +46,9 @@
     
     .lead__subtitle {
         width: calc(928px - 345 * ((100vw - 1024px) / 256));
-        min-width: 36.4375rem;
+        min-width: 583px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
   }

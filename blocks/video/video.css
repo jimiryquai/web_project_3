@@ -21,3 +21,14 @@
     }
 
 }
+
+@media (min-width: 1024px) {
+
+    .places {
+        width: calc(928px + 256 * ((100vw - 1024px) / 256));
+        max-width: 986px;
+        margin: 0 auto;
+    }
+
+ }
+ 

@@ -4,18 +4,10 @@
     overflow: hidden;
 }
 
-@media (min-width: 768px ) and (max-width: 1023px) {
+@media (min-width: 768px ) {
     
     .lead__figure {
         width: 100%;
-    }
-
-  }
-
-  @media (min-width: 1024px) {
-    
-    .lead__figure {
-        max-width: 61.5rem;
     }
 
   }

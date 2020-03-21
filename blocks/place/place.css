@@ -13,3 +13,11 @@
 .place:last-of-type {
     padding-bottom: 0;
 }
+
+@media screen and (min-width: 468px) and (max-width: 767px) {
+
+    .place {
+        max-width: 32.95rem;
+    }
+
+}

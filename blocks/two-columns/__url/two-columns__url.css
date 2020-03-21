@@ -1,11 +1,11 @@
-.two-columns__main-text {
+.two-columns__url {
     display: flex;
     flex-direction: column;
 }
 
 @media (min-width: 426px ) and (max-width: 767px) {
 
-    .two-columns__main-text  {
+    .two-columns__url  {
         max-width: 32.95rem;
         align-self: center;
     }
@@ -14,7 +14,7 @@
 
 @media (min-width: 768px ) and (max-width: 1023px) {
 
-    .two-columns__main-text  {
+    .two-columns__url  {
         width: calc(352px + 104 * ((100vw - 768px) / 255));
         max-width: 28.5rem;
         margin: 0;
@@ -24,7 +24,7 @@
 
   @media (min-width: 1024px) {
 
-    .two-columns__main-text  {
+    .two-columns__url  {
         width: calc(456px + 28 * ((100vw - 1024px) / 256));
         min-width: 456px;
         max-width: 484px;

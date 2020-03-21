@@ -10,11 +10,14 @@
     margin: 0 0 3.75rem;
 }
 
+.place__url:hover {
+    opacity: 0.8;
+}
+
 @media (min-width: 768px ) {
 
-        .place__url {
-            display: block;
-            margin-bottom: 5.22rem;
-        }
+    .place__url {
+        display: block;
+    }
 
   }

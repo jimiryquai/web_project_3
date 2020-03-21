@@ -8,3 +8,11 @@
     line-height: 1.5555;
     margin-bottom: 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .intro__list {
+        width: 23.94rem;
+        margin-right: auto;
+        font-size: .8rem;
+    }
+}

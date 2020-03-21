@@ -1,26 +1,13 @@
 .video__container {
     margin: 0;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-direction: column;
 }
-
-@media (min-width: 426px ) and (max-width: 767px) {
-
-    .video__container {
-        width: 88.73%;
-        max-width: 45rem;
-        margin: 0 auto;
-        justify-content: center;
-    }
-
-  }
 
   @media (min-width: 768px ) {
 
     .video__container {
-        width: 93.75;
-        max-width: 74rem;
+        flex-direction: row;
         justify-content: space-evenly;
     }
     

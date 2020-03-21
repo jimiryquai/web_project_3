@@ -7,3 +7,6 @@
     margin-right: 0;
 }
 
+.header__list-item:hover { 
+    opacity: 0.8; 
+} 
